@@ -1,10 +1,10 @@
 {
   "appId": "com.uber.mobility.app",
-  "appName": "Uber",
+  "appName": "Uber Clone",
   "webDir": "dist",
   "bundledWebRuntime": false,
   "server": {
-    "androidScheme": "https",
+    "url": "https://cab-ride-six.vercel.app/",
     "cleartext": true
   },
   "plugins": {
@@ -17,6 +17,9 @@
     "StatusBar": {
       "style": "DARK",
       "backgroundColor": "#000000"
+    },
+    "Geolocation": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
     }
   }
 }
