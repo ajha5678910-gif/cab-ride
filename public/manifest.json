@@ -1,6 +1,6 @@
 {
-  "name": "Uber Mobility",
-  "short_name": "Uber",
+  "name": "OmniRide Connect",
+  "short_name": "OmniRide",
   "description": "On-demand rides, reserve trips, rentals, courier parcel delivery, and driver partner portal.",
   "start_url": "/",
   "scope": "/",

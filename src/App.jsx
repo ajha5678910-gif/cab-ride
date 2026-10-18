@@ -51,9 +51,9 @@ export const App = () => {
     return (
       <div className="min-h-screen bg-[#F8F9FA] flex items-center justify-center font-sans">
         <div className="flex flex-col items-center space-y-4">
-          <div className="text-3xl font-black text-black tracking-tight font-sans">Uber</div>
+          <div className="text-3xl font-black text-black tracking-tight font-sans">OmniRide Connect</div>
           <div className="w-8 h-8 border-2 border-neutral-300 border-t-black rounded-full animate-spin" />
-          <p className="text-xs text-neutral-500 font-medium">Loading workspace...</p>
+          <p className="text-xs text-neutral-500 font-medium">Loading OmniRide platform...</p>
         </div>
       </div>
     );
@@ -165,9 +165,9 @@ export const App = () => {
       <footer className="bg-black text-white border-t border-neutral-800 py-6 text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-2">
-            <span className="font-bold text-sm tracking-tight">Uber</span>
+            <span className="font-bold text-sm tracking-tight">OmniRide Connect</span>
             <span className="text-neutral-500">•</span>
-            <span className="text-neutral-400">Enterprise Mobility Cloud Platform</span>
+            <span className="text-neutral-400">Enterprise Mobility Super App</span>
           </div>
 
           <div className="flex items-center space-x-4 text-neutral-400">

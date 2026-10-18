@@ -30,10 +30,18 @@ export const Navbar = ({ onOpenProfile }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand & Authentic Badge */}
         <div className="flex items-center space-x-3">
-          <Link to={getHomeLink()} className="flex items-center space-x-2.5">
-            <span className="text-2xl font-black tracking-tight font-sans text-white hover:opacity-90 transition">
-              Uber
-            </span>
+          <Link to={getHomeLink()} className="flex items-center space-x-2">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-400 flex items-center justify-center text-white font-black text-sm shadow-md">
+              O
+            </div>
+            <div className="flex items-baseline space-x-1">
+              <span className="text-xl font-black tracking-tight font-sans text-white hover:opacity-90 transition">
+                OmniRide
+              </span>
+              <span className="text-[10px] font-black text-emerald-400 uppercase tracking-wider bg-emerald-950/60 border border-emerald-800/80 px-1.5 py-0.2 rounded-md">
+                Connect
+              </span>
+            </div>
           </Link>
           {isAuthenticated && (
             <span className="text-[10px] font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-neutral-900 text-neutral-300 border border-neutral-800">

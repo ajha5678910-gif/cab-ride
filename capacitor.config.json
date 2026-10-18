@@ -1,6 +1,6 @@
 {
-  "appId": "com.uber.mobility.app",
-  "appName": "Uber Clone",
+  "appId": "com.omniride.connect.app",
+  "appName": "OmniRide Connect",
   "webDir": "dist",
   "bundledWebRuntime": false,
   "server": {
